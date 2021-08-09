@@ -1,0 +1,17 @@
+{
+  "overrides": [
+    {
+      "files": ["*.html", "*.ejs", "*.xml", "*.svg"],
+      "options": {
+        "parser": "html",
+        "htmlWhitespaceSensitivity": "ignore"
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
